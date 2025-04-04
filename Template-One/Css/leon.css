@@ -120,3 +120,33 @@
     border-bottom: 1px solid #ddd;
   }
   /* End Header */
+
+  /* start landing */
+
+  .landing {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    position: relative;
+  }
+  .landing .intro-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 320px;
+  }
+  .landing .intro-text h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+    color: var(--main-color);
+  }
+
+  .landing .intro-text p {
+    font-size: 19px;
+    line-height: 1.8;
+  }
+
+    /* End landing */
